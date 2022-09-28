@@ -1,0 +1,33 @@
+.home-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.search-input{
+    width: 50%;
+    padding: 15px;
+    margin: 10px;
+}
+.search-btn{
+    border: none;
+    color:aliceblue;
+    background-color: blue;
+    padding: 15px;
+    font-weight:600;
+}
+.cart{
+    border: 1px solid gray;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.card-info{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    
+}
+.card-info-btn{
+    background-color: red;
+    margin-left: 3px;
+}
